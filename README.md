@@ -21,8 +21,8 @@
 
 | Difficulty | Count |
 |-----------|------|
-| 🟢 Easy   | XX   |
-| 🟡 Medium | XX   |
+| 🟢 Easy   | 1   |
+| 🟡 Medium | 1   |
 | 🔴 Hard   | XX   |
 
 ---
@@ -36,16 +36,20 @@
 
 ---
 
-## 🗂️ Folder Structure
+## 📁 Folder Structure
+
+```bash
 Leetcode-Daily-Practice-Questions-in-CPP/
 │
 ├── 3783-mirror-distance-of-an-integer/
-│ ├── solution.cpp
-│ └── README.md
+│   ├── solution.cpp
+│   └── README.md
 │
 ├── 3750-closest-equal-element-queries/
-│ ├── solution.cpp
-│ └── README.md
+│   ├── solution.cpp
+│   └── README.md
+│
+└── README.md
 
 ---
 
