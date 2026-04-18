@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/closest-equal-element-queries">3488 Closest Equal Element Queries</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>circular</strong> array <code>nums</code> and an array <code>queries</code>.</p>
+<h2><a href="https://leetcode.com/problems/closest-equal-element-queries">3488. Closest Equal Element Queries</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>circular</strong> array <code>nums</code> and an array <code>queries</code>.</p>
 
 <p>For each query <code>i</code>, you have to find the following:</p>
 
