@@ -33,6 +33,7 @@
 
 - 🔹 [3783. Mirror Distance of an Integer](./3783-mirror-distance-of-an-integer)
 - 🔹 [3750. Closest Equal Element Queries](./3750-closest-equal-element-queries)
+- 🔹 [1984. Maximum distance between a pair of values](./1984-maximum-distance-between-a-pair-of-values)
 
 ---
 
