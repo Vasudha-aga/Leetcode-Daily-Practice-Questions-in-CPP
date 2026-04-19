@@ -22,7 +22,7 @@
 | Difficulty | Count |
 |-----------|------|
 | 🟢 Easy   | 1   |
-| 🟡 Medium | 1   |
+| 🟡 Medium | 2   |
 | 🔴 Hard   | XX   |
 
 ---
@@ -48,7 +48,7 @@ Leetcode-Daily-Practice-Questions-in-CPP/
 ├── 3750-closest-equal-element-queries/
 │   ├── solution.cpp
 │   └── README.md
-│
+│__..
 └── README.md
 ```
 ---
