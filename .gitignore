@@ -1,0 +1,22 @@
+# Ignore LeetHub / LeetSync auto files
+stats.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Compiled files (C/C++)
+*.exe
+*.out
+*.o
+
+# Temporary files
+*.log
+
+# Python cache (just in case future use)
+__pycache__/
+*.pyc
