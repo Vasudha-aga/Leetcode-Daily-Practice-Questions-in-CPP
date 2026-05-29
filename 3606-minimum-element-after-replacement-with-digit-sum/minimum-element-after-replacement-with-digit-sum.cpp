@@ -1,15 +1,15 @@
 class Solution {
 public:
     int minElement(vector<int>& nums) {
-        for(auto & i : nums)
+        for(auto & each : nums)
         {
             int total = 0;
-            while(i > 0)
+            while(each > 0)
             {
-                total += i % 10;
-                i = i / 10;
+                total += each % 10;
+                each = each / 10;
             }
-            i = total;
+            each = total;
         }
         return *min_element(nums.begin(), nums.end());
     }
