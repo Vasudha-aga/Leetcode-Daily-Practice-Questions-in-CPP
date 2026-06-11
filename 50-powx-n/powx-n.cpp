@@ -11,7 +11,7 @@ public:
         }
         if(n<0) //negative n
         {
-            return (double)1.0/myPow(x,-n);
+            return (double)1.0/myPow(x,-n); //reciprocal
         }
         if(n%2 == 1) //odd n
         {
