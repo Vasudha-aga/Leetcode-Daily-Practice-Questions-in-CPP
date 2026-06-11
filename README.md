@@ -20,10 +20,10 @@
 ## 📊 Progress Tracker
 
 | Difficulty | Count |
-|-----------|------|
+|-----------|-------|
 | 🟢 Easy   | 12   |
 | 🟡 Medium | 20   |
-| 🔴 Hard   | 6   |
+| 🔴 Hard   | 6    |
 
 ---
 
