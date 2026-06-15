@@ -1,6 +1,7 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
+        //Dutch National Flag (DNF) algorithm
         int high = nums.size() - 1;
         int low = 0;
         int mid = 0;
