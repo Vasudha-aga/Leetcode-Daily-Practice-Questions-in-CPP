@@ -22,7 +22,7 @@
 | Difficulty | Count |
 |-----------|-------|
 | 🟢 Easy   | 20   |
-| 🟡 Medium | 36   |
+| 🟡 Medium | 37   |
 | 🔴 Hard   | 10   |
 
 ---
