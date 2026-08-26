@@ -14,16 +14,16 @@ public:
         ListNode* fast = head;
         ListNode* slow = head;
         for(int i =0 ; i<n ; i++){
-            fast = fast->next;
+            fast = fast->next; //moving fast pointer n positions ahead
         }
-        if(fast == NULL){
+        if(fast == NULL){ //if first element has to be removed
             return head->next;
         }
-        while(fast->next){
+        while(fast->next){ //move both pointers until fast pointer reaches the end
             fast = fast->next;
             slow = slow->next;
         }
-        slow->next = slow->next->next;
+        slow->next = slow->next->next; //remove the nth node from the end
         return head;
     }
 };
