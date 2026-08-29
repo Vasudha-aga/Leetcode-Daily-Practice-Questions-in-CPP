@@ -8,11 +8,11 @@ public:
         int ans = INT_MAX;
         while(low <= high){
             int mid = low + (high-low) /2;
-            if(nums[mid] >= nums[low]){
+            if(nums[mid] >= nums[low]){ //left side of mid is sorted 
                 ans = min(ans , nums[low]);
                 low = mid+1;
             }else{
-                ans = min(ans , nums[mid]);
+                ans = min(ans , nums[mid]); //right side of mid is sorted so min value should be on the left side
                 high = mid-1;
             }
         }
