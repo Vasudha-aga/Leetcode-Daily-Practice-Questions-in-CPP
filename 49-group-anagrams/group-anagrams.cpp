@@ -1,6 +1,7 @@
 class Solution {
 public:
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+    vector<vector<string>> groupAnagrams(vector<string>& strs) { //O(NxK) , O(NxK), N=no. of strings
+                                                                                  //K = max length of a string 
         unordered_map<string , vector<string>> mp;
         for(string s : strs){
             vector<int> count(26,0);
