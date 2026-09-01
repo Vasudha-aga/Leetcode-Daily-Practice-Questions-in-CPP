@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) { //O(n) , O(1)
         int totalgas = 0, totalcost =0;
         for(int i =0 ; i<gas.size() ; i++){
             totalgas += gas[i];
