@@ -23,7 +23,7 @@ class Solution {
 //         v.push_back(root->val);
 //         inorder(root->right , v);
 public:
-    int kthSmallest(TreeNode* root, int k) { //O(n) , O(n)+stack
+    int kthSmallest(TreeNode* root, int k) { //O(n) , O(1)+stack
         int count =0;
         int ans = -1;
         inorderSolve(root , count , ans , k);
