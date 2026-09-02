@@ -10,17 +10,34 @@
  * };
  */
 class Solution {
+// public:
+//     int kthSmallest(TreeNode* root, int k) { //O(n) , O(n)+stack
+//         vector<int> v;
+//         inorder(root , v);
+//         return v[k-1];
+//     }
+// private:
+//     void inorder(TreeNode* &root , vector<int> &v){
+//         if(!root) return;
+//         inorder(root->left , v);
+//         v.push_back(root->val);
+//         inorder(root->right , v);
 public:
     int kthSmallest(TreeNode* root, int k) { //O(n) , O(n)+stack
-        vector<int> v;
-        inorder(root , v);
-        return v[k-1];
+        int count =0;
+        int ans = -1;
+        inorderSolve(root , count , ans , k);
+        return ans;
     }
 private:
-    void inorder(TreeNode* &root , vector<int> &v){
+    void inorderSolve(TreeNode* &root , int &count , int &ans, int k){
         if(!root) return;
-        inorder(root->left , v);
-        v.push_back(root->val);
-        inorder(root->right , v);
+        inorderSolve(root->left , count , ans , k);
+        count++;
+        if(count  == k){
+            ans = root->val;
+            return;
+        }
+        inorderSolve(root->right, count , ans , k);
     }
 };
