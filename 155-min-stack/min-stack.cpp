@@ -7,8 +7,9 @@ public:
     }
     
     void push(int value) {
-        int mini = getMin();
-        if(st.empty() || mini > value) mini = value;
+        // int mini = getMin();
+        // if(st.empty() || mini > value) mini = value;
+        int mini = st.empty() ? value : min(value , st.back()[1]);
         st.push_back({value , mini});
     }
     
@@ -17,11 +18,11 @@ public:
     }
     
     int top() {
-        return st.empty() ? -1 : st.back()[0];
+        return st.empty() ? -1 : st.back()[0]; //if not empty , then return value
     }
     
     int getMin() {
-        return st.empty() ? -1 : st.back()[1];
+        return st.empty() ? -1 : st.back()[1]; //if not empty , then return mini
     }
 };
 
