@@ -2,13 +2,9 @@ class MinStack {
 private:
     vector<vector<int>> st;
 public:
-    MinStack() {
-        
-    }
-    
+    MinStack() {}
+
     void push(int value) {
-        // int mini = getMin();
-        // if(st.empty() || mini > value) mini = value;
         int mini = st.empty() ? value : min(value , st.back()[1]);
         st.push_back({value , mini});
     }
